@@ -1,0 +1,465 @@
+<!-- (c) Layout created by NATHANN!!1!/Joke_Bamb (PLACEHOLDER) -->
+
+<style>
+
+@keyframes showWindow {
+  0% {
+    filter: blur(32px) brightness(32%);
+    opacity: 0;
+    transform:
+      perspective(800px)
+      translateX(-420px)
+      translateY(620px)
+      translateZ(-600px)
+      rotateY(-120deg)
+      rotateX(24deg)
+      scale(0.45);
+  }
+
+  100% {
+    filter: blur(0px) brightness(100%);
+    opacity: 1;
+    transform:
+      perspective(800px)
+      translateX(0px)
+      translateY(0px)
+      translateZ(0px)
+      rotateX(0deg)
+      rotateY(0deg)
+      scale(1);
+  }
+}
+
+@keyframes popOut {
+  0% {
+    opacity: 0;
+    filter: blur(18px) brightness(0.7);
+    transform:
+      perspective(800px)
+      translateX(-144px)
+      translateY(0px)
+      rotateY(-720deg)
+      scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0px) brightness(1);
+    transform:
+      perspective(800px)
+      rotateZ(0deg)
+      scale(1);
+  }
+}
+
+@keyframes spinIn {
+     from {
+        transform:rotateY(-120deg)
+        skew(4deg, -8deg)
+        scale(0.86);
+
+    }
+    to {
+        transform:rotateY(0deg)
+        skew(4deg, -8deg)
+        scale(1);
+    }
+}
+
+
+@keyframes friendHover {
+  0% {
+    transform: skew(0deg, 0deg) scale(1);
+  }
+
+  30% {
+    transform: skew(-2deg, 0deg) scale(1.05);
+  }
+
+  60% {
+    transform: skew(0deg, -4deg) scale(1.05);
+  }
+
+  100% {
+    transform: skew(0deg, 0deg) scale(1);
+  }
+}
+
+.container {
+  animation:.5s showWindow cubic-bezier(.19,1,.22,1);
+  border-radius: 6px;
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+  padding: 8px;
+}
+
+@font-face {
+	font-family: 'FGBK';
+	src: url('https://github.com/cisagov/trustymail_reporter/raw/refs/heads/develop/src/fonts/Franklin%20Gothic%20Book.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'FGM';
+	src: url('https://github.com/cisagov/trustymail_reporter/raw/refs/heads/develop/src/fonts/Franklin%20Gothic%20Medium%20Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'LF';
+	src: url('https://github.com/impallari/Libre-Franklin/raw/refs/heads/master/fonts/TTF/LibreFranklin-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  background-image: url(https://static.wikitide.net/windowswallpaperwiki/5/5e/Longhorn_Stonehenge_wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 11pt !important;
+  font-family: FGBK,sans-serif !important;
+}
+
+nav .top {
+display: block;
+border-radius: 12px 12px 0px 0px;
+border:solid thin #619CEE !important;
+border-bottom: 0px;
+background: #4D85D4;
+background: linear-gradient(90deg, rgba(77, 133, 212, 1) 0%, rgba(114, 178, 245, 1) 50%, rgba(77, 133, 212, 1) 100%);
+}
+
+
+nav .top::before {
+content: "";
+position: absolute;
+top: 1px;
+left: 0;
+width: 100%;
+height: 1px;
+background: #FFFFFF;
+background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+z-index: 999;
+}
+
+nav .top .center {
+text-transform: lowercase;
+}
+
+nav .links {
+border-left:solid thin #619CEE !important;
+border-right:solid thin #619CEE !important;
+background: #396DB2;
+background: linear-gradient(90deg, rgba(57, 109, 178, 1) 0%, rgba(95, 156, 218, 1) 50%, rgba(57, 109, 178, 1) 100%);
+}
+
+nav .links a {
+color: #9BC5FF;
+}
+
+nav .links a:hover {
+color: #9BC5FF;
+text-shadow: 0px 0px 6.38px #FFFFFF;
+text-decoration: none;
+}
+
+nav .links li:not(:last-child)::after {
+color: rgba(255, 255, 255, 0);
+}
+
+main {
+background-image: url("https://files.catbox.moe/hldwny.png"), linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(199, 211, 230, 1) 50%);
+background-repeat: no-repeat, repeat;
+background-position: top left, center;
+background-size: 720px, cover;
+border-radius: 0px 0px 12px 12px;
+-webkit-backdrop-filter: blur(3px);
+backdrop-filter: blur(3px);
+opacity: 0.96;
+}
+
+main .right {
+animation: popOut 0.8s cubic-bezier(.2,1,.3,1) both;
+}
+
+.general-about {
+animation: popOut 0.8s cubic-bezier(.2,1,.3,1) both;
+}
+
+.profile-info {
+border: 0px solid rgba(0, 0, 0, 0);
+display: flex;
+align-items: left;
+justify-content: center;
+padding: 2px 2px;
+margin-bottom: 10px;
+}
+
+input {
+border-radius: 1000px;
+border:solid thin #4279BB !important;
+background: #FFFFFF;
+background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(221, 225, 235, 1) 100%);
+}
+
+.profile .blurbs .heading {
+display: none;
+}
+
+.profile .blurbs .section h4 {
+text-shadow: 0px 0px 6.38px #FFFFFF;
+color: #13529D;
+font-size: 16pt;
+font-weight: 500;
+
+}
+
+.profile .blurbs .section h4::first-letter {
+text-transform: lowercase;
+}
+
+html body div.container main div.row.profile div.col.right div#comments.friends {
+animation: popOut 0.4s cubic-bezier(.2,1,.3,1) 150ms both;
+}
+
+.profile .friends, .profile .table-section {
+animation: popOut 0.4s cubic-bezier(.2,1,.3,1) 100ms both;
+}
+
+.profile .blurbs {
+animation: popOut 0.4s cubic-bezier(.2,1,.3,1) 50ms both;
+}
+
+.profile .blog-preview {
+animation: popOut 0.4s cubic-bezier(.2,1,.3,1) 0ms both;
+}
+
+.profile h1 {
+font-size: 37px;
+color: #5C9EEA;
+font-weight: 500;
+text-shadow: 0px 0px 6.38px #FFFFFF;
+animation: popOut 0.8s cubic-bezier(.2,1,.3,1) 16ms both;
+}
+
+.profile-pic {
+transform: skew(4deg, -8deg);
+perspective: 900px;
+transform-style: preserve-3d;
+transform-origin: center center;
+backface-visibility: hidden;
+animation-name: spinIn;
+animation-duration: 1000ms;
+animation-iteration-count: 1;
+animation-timing-function: cubic-bezier(.2,1,.3,1) both;
+}
+
+button { 
+font-family: FGM,sans-serif !important;
+color: #0A2B58; 
+border-radius: 3px; 
+border: solid thin #038DF0; 
+background: #8DCFFE; 
+background-size: 100% 100%; 
+background-position: 0px 0px,0px 0px,0px 0px; 
+background-image: radial-gradient(100% 100% at 51% 9%, #FFFFFF91 6%, #FFFFFF00 55%),radial-gradient(100% 75% at 50% 90%, #FFFFFF91 6%, #FFFFFF00 55%),linear-gradient(181deg, #8DCFFE 0%, #63BCFD 47%, #5BB9FD 72%, #83CAFE 100%); 
+box-shadow: inset 0px -0.5px 0px 0.5px rgba(255, 255, 255, 0.6); 
+padding-left: 12px;
+padding-right: 12px;
+display: inline-block;
+transition: transform 0.2s ease-out;
+}
+
+button:hover {
+filter: brightness(1.16);
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+  border: none !important;
+}
+
+.comments-table td:first-child img:not(.icon) {
+display: none;
+}
+
+.heading {
+font-family: LF,sans-serif !important;
+color: #666666 !important;
+font-size: 14px !important;
+background: none !important;
+padding: 8px 0px !important;
+font-weight: 500;
+}
+
+.count {
+color: #2466BD;
+}
+
+.profile .friends p b {
+color: #5C9EEA;
+font-size: 11px !important;
+margin-left: 0px !important;
+font-weight: 500;
+}
+
+.general-about .profile-pic img {
+  background-image: url("https://files.catbox.moe/xdl3md.png");
+  max-height: 149px;
+  width: 144px;
+  max-width: 100%;
+  border: 0px solid rgba(.0,.0,.0,.0);
+  padding: 25px;
+  padding-top: 19px;
+  border-radius: 2px;
+}
+.general-about .profile-pic {
+  height: 138px;
+}
+.profile-pic {
+position: relative;
+}
+.profile-pic:after {
+content: "";
+background: url('https://files.catbox.moe/xdl3md.png');
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.contact .inner a {
+color: #666666 !important;
+}
+
+footer, footer a {
+color: white;
+background: rgba(255, 255, 255, 0);
+}
+
+.comments-table td:first-child {
+width: 0%;
+background: transparent;
+}
+
+.comments-table td {
+background: transparent;
+}
+
+table.comments-table {
+border: solid thin transparent;
+}
+
+.comment-replies {
+border: solid thin transparent;
+}
+
+.profile .friends .person img:not(.icon) {
+transform: skew(0deg, 0deg) scale(1);
+transition: transform 0.2s ease;
+box-shadow: 5px 5px 16px 0px rgba(52, 58, 99, 0.25);
+}
+
+.profile .friends .person img:not(.icon):hover {
+animation: friendHover 0.45s ease-out 1;
+}
+
+table.details-table {
+border-top: solid 2px #B0C7F1;
+border-radius: 4px;
+}
+
+.details-table td:first-child, .details-table td {
+background: none;
+}
+
+.details-table td:first-child {
+color: #5C9EEA;
+}
+
+.details-table td {
+color: #666666;
+}
+
+a:hover {
+color: #5C9EEA;
+text-shadow: 0px 0px 6.38px #FFFFFF;
+transform: scale(1.050);
+}
+
+a {
+display: inline-block;
+transition: transform 0.2s ease-out;
+}
+
+/* Icons */
+.contact .inner a img {
+    font-size: 0;
+}
+.contact .inner a img:before {
+font-size: 1em;
+display: block;
+}
+.contact .inner a img {
+font-size: 0;
+}
+.contact .inner a img:before {
+font-size: 1em;
+display: block
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+/* add to friends */
+content: url("https://files.catbox.moe/8q42aw.png")
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+/* add to favorites */
+content: url("https://files.catbox.moe/4uao9c.png")
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+/* send message */
+content: url("https://files.catbox.moe/psyfxv.png")
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+/* forward to friend */
+content: url("https://files.catbox.moe/5z63n7.png")
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+/* instant message */
+content: url("https://files.catbox.moe/n8i96b.png")
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+/* block user */
+content: url("https://files.catbox.moe/tcanhr.png")
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+/* add to group */
+content: url("https://files.catbox.moe/67f5yu.png")
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+/* report user */
+content: url("https://files.catbox.moe/zolxte.png")
+}
+.online img {
+/* online */
+content: url("https://icons.iconarchive.com/icons/fatcow/farm-fresh/32/status-online-icon.png");
+}
+
+* { 
+cursor: url('https://files.catbox.moe/cs7qfw.png'), auto; 
+}
+
+a:hover {
+cursor: url('https://files.catbox.moe/cs7qfw.png'), auto;
+}
+
+.logo {
+content:url("https://files.catbox.moe/sk8rvp.svg");
+mix-blend-mode: hard-light;
+}
+
+</style>
