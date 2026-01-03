@@ -10,7 +10,7 @@ You must give credit if you ever use any of these layouts. Do not claim any of t
 | Layout | Description | Version | Other Links |
 | --- | --- | --- | --- |
 | [DemoPlex](https://github.com/Joke-Bamb/SpaceHey-Layouts-by-Joke_Bamb/blob/main/DemoPlex/DemoPlex.txt) | Based on the 'Longhorn Days' concepts. | 1.0 | [Blog](https://blog.spacehey.com/entry?id=2038162) |
-| Watercolor | Based on the interface seen in Whistler builds 2419 and below. | Unavailable | TBA |
+| [Watercolor](https://github.com/Joke-Bamb/SpaceHey-Layouts-by-Joke_Bamb/blob/main/Watercolor/Watercolor.txt) | Based on the interface seen in Whistler builds 2419 and below. | 0.8 | TBA |
 | Metro8 | A flat layout inspired from the Metro interface seen in Windows 8/8.1. | Unavailable | TBA |
 | Win '85 | TBA | Unavailable | TBA |
 | Nexified | TBA | Unavailble | TBA |
