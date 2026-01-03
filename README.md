@@ -14,5 +14,5 @@ You must give credit if you ever use any of these layouts. Do not claim any of t
 | Metro8 | A flat layout inspired from the Metro interface seen in Windows 8/8.1. | Unavailable | TBA |
 | Win '85 | TBA | Unavailable | TBA |
 | Nexified | TBA | Unavailble | TBA |
-| Hydreous Glass | iOS 26/macOS 26 inspired. | Unavailable | TBA |
+| Hydrous Glass | iOS 26/macOS 26 inspired. | Unavailable | TBA |
 | OS6 | iOS 6 and below inspired. | Unavailable | TBA |
