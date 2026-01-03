@@ -15,3 +15,4 @@ You must give credit if you ever use any of these layouts. Do not claim any of t
 | Win '85 | TBA | Unavailable | TBA |
 | Nexified | TBA | Unavailble | TBA |
 | Hydreous Glass | iOS 26/macOS 26 inspired. | Unavailable | TBA |
+| OS6 | iOS 6 and below inspired. | Unavailable | TBA |
