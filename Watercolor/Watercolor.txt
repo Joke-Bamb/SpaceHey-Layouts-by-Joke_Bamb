@@ -1,0 +1,214 @@
+<!-- (c) Layout created by NATHANN!!1!/Joke_Bamb (PLACEHOLDER) -->
+
+<style>
+
+body {
+background-image:url(https://static.wikitide.net/windowswallpaperwiki/b/b9/Watercolor_%28Whistler%29.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+font-size: 11pt !important;
+font-family: Tahoma,sans-serif !important;
+}
+
+container {
+box-shadow: 0px 0px 0px 1px #7BB2FF;
+-webkit-box-shadow: 0px 0px 0px 1px #7BB2FF;
+-moz-box-shadow: 0px 0px 0px 1px #7BB2FF;
+}
+
+nav .top {
+background-color: #5296FF;
+background-image: url("https://files.catbox.moe/6bwhnz.png");
+background-repeat: repeat;
+background-position: top right;
+background-size: 860px auto;
+}
+
+
+nav .links {
+background: #DEDBCE;
+border-left: solid 4px #5296FF;
+border-right: solid 4px #316DCE;
+}
+
+nav .links a {
+text-decoration: none;
+color: black;
+text-shadow: none;
+}
+
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+color: white;
+}
+
+main {
+border-left: solid 4px #5296FF;
+border-right: solid 4px #316DCE;
+border-bottom: solid 4px #316DCE;
+position: relative;
+background: #EBEBE4;
+padding: 7px;
+}
+
+main .left {
+border: solid thin white;
+background: #F3F3EF;
+padding: 4px 4px;
+box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.12);
+}
+
+.profile .blurbs .heading, .profile .friends .heading, .profile .comments .inner {
+color: white;
+background-color: #5296FF !important;
+background-image: url("https://files.catbox.moe/6bwhnz.png") !important;
+background-repeat: repeat !important;
+background-position: top right !important;
+background-size: 860px auto !important;
+}
+
+.profile .blurbs .inner, .profile .friends .inner, .blog-entry .comments .inner, .bulletin .comments .inner, .setting-section .inner {
+border-left: solid 2px #5296FF;
+border-right: solid 2px #316DCE;
+border-bottom: solid 2px #5296FF;
+background: #F3F3EF;
+padding: 4px 4px;
+box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.12);
+}
+
+.profile .blurbs .section h4, .count {
+color: black;
+}
+
+html body div.container main div.row.profile div.col.right div#comments.friends div.heading {
+visibility:hidden
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .setting-section, .home-actions {
+border: none;
+}
+
+.profile .contact .heading, .profile .table-section .heading, .setting-section .heading, .home-actions .heading {
+background: none;
+color: black;
+padding: 0px 0px;
+}
+
+.details-table td:first-child, .details-table td {
+background: none;
+}
+
+.profile-info {
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0px 0px;
+margin-bottom: 10px;
+}
+
+html body div.container main div.row.profile div.col.right div#comments.friends div.inner {
+background: none;
+border: none;
+box-shadow: none;
+}
+
+html body div.container nav div.top div.center form button {
+color: #CEDFF7 !important;
+background-image: none;
+background: #5296FF;
+border: solid thin #84AAE7 !important;
+box-shadow: none !important;
+-webkit-box-shadow: none !important;
+-moz-box-shadow: none !important;
+}
+
+table.comments-table {
+border: solid thin white;
+background: #F3F3EF;
+padding: 4px 4px;
+box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.12);
+}
+
+.comments-table td:first-child, .comments-table td, .comment-replies {
+background: none;
+border: none;
+}
+
+button {
+background-image: linear-gradient(135deg, #F7F3EFFF 0%, #E7E7DEFF 100%);
+border-top: solid thin white;
+border-right: solid thin #BDBEBD;
+border-bottom: solid thin #BDBEBD;
+border-left: solid thin white;
+border-radius: 0px;
+box-shadow: 0px 0px 0px 1px rgba(132,130,132,0.75);
+-webkit-box-shadow: 0px 0px 0px 1px rgba(132,130,132,0.75);
+-moz-box-shadow: 0px 0px 0px 1px rgba(132,130,132,0.75);
+}
+
+a:hover {
+color: blue;
+}
+
+footer {
+background: none;
+color: black;
+}
+
+/* Icons */
+.contact .inner a img {
+    font-size: 0;
+}
+.contact .inner a img:before {
+font-size: 1em;
+display: block;
+}
+.contact .inner a img {
+font-size: 0;
+}
+.contact .inner a img:before {
+font-size: 1em;
+display: block
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+/* add to friends */
+content: url("https://files.catbox.moe/hf6442.png")
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+/* add to favorites */
+content: url("https://files.catbox.moe/u5dsxn.png")
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+/* send Message */
+content: url("https://files.catbox.moe/fvcr1p.png")
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+/* forward to friend */
+content: url("https://win98icons.alexmeub.com/icons/png/media_player_stream_conn1.png")
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+/* instant message */
+content: url("https://win98icons.alexmeub.com/icons/png/message_envelope_open-1.png")
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+/* block user */
+content: url("https://files.catbox.moe/kjr4ep.png")
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+/* add to group */
+content: url("https://win98icons.alexmeub.com/icons/png/users-1.png")
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+/* report user */
+content: url("https://win98icons.alexmeub.com/icons/png/msg_warning-2.png")
+}
+p.report a img.icon {
+content: url("https://win98icons.alexmeub.com/icons/png/msg_warning-2.png")
+}
+nav .links a img.icon {
+/* notification */
+content: url("https://files.catbox.moe/gayqwn.png")
+}
+
+</style>
